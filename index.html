@@ -21,21 +21,22 @@
                         <label for="inputPassword6" class="col-form-label">Boshlang'ich sonni kiriting:</label>
                     </div>
                     <div class="col-auto me-5">
-                        <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        <input type="number" id="minNumber" class="form-control" aria-describedby="passwordHelpInline" placeholder="Min">
                     </div>
                     <div class="col-auto">
                         <label for="inputPassword6" class="col-form-label">Oxirgi sonni kiriting:</label>
                     </div>
                     <div class="col-auto">
-                        <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        <input type="number" id="maxNumber" class="form-control" aria-describedby="passwordHelpInline" placeholder="Max">
                     </div>
                 </div>
                 <div class="d-grid mt-5">
-                    <button class="btn btn-primary" type="button">Generation</button>
+                    <button class="btn btn-primary" type="button" id="generate">Generation</button>
                 </div>
-                <h2 class="text-center fw-bold mt-5">NULL</h2>
+                <h2 class="text-center fw-bold mt-5" id="random">NULL</h2>
             </div>
         </div>
+        <script src="script.js"></script>
         <!-- <h1 class="mt-5">Random Number Generator</h1>
         <p class="lead">Click the button below to generate a random number between 1 and 100.</p>
         <button id="generateBtn" class="btn btn-primary">Generate Random Number</button>
